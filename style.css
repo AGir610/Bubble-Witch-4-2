@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #6a11cb, #2575fc); /* schöner Cartoon-Hintergrund */
+    color: #fff;
+}
+
+#chapterUI {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    overflow-x: auto;
+    background: rgba(0,0,0,0.3);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#chapterUI button {
+    margin-right: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    transition: transform 0.2s;
+}
+
+#chapterUI button:hover {
+    transform: scale(1.1);
+}
+
+#levelInfo {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.3);
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: url('https://i.imgur.com/jxB7Cz8.png') no-repeat center center;
+    background-size: cover;
+}
