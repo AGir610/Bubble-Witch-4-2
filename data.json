@@ -1,0 +1,11 @@
+{
+  "chapters": [
+    {"id":1,"title":"Kapitel 1","levels":10},
+    {"id":2,"title":"Kapitel 2","levels":15},
+    {"id":3,"title":"Kapitel 3","levels":15},
+    {"id":4,"title":"Kapitel 4","levels":20},
+    {"id":5,"title":"Kapitel 5","levels":20},
+    {"id":6,"title":"Kapitel 6","levels":20}
+    /* Füge hier bis Kapitel 26 hinzu */
+  ]
+}
